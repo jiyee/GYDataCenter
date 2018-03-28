@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38FB31E541ABB7770248C4D4 /* Pods_GYDataCenter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731DAAD107177EB1BD7E1465 /* Pods_GYDataCenter_Tests.framework */; };
+		2AC71C9C206B7E30003441AA /* GYDataCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC71C97206B7E2F003441AA /* GYDataCenterTests.m */; };
+		2AC71C9D206B7E30003441AA /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC71C99206B7E30003441AA /* Employee.m */; };
+		2AC71C9E206B7E30003441AA /* GYDataCenterTests.db in Resources */ = {isa = PBXBuildFile; fileRef = 2AC71C9A206B7E30003441AA /* GYDataCenterTests.db */; };
+		2AC71C9F206B7E30003441AA /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC71C9B206B7E30003441AA /* Department.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		B32265301D23783200A37382 /* GYDataCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B322652F1D23783200A37382 /* GYDataCenterTests.m */; };
-		B32265331D237AEB00A37382 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = B32265321D237AEB00A37382 /* Employee.m */; };
-		B32265361D237B1100A37382 /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = B32265351D237B1100A37382 /* Department.m */; };
-		B32265551D23CE5800A37382 /* GYDataCenterTests.db in Resources */ = {isa = PBXBuildFile; fileRef = B32265541D23CE5800A37382 /* GYDataCenterTests.db */; };
+		67CC4C1D7ECB81FD502E2108 /* Pods_GYDataCenter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED710671A02433730199638 /* Pods_GYDataCenter_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3AFB007D139AA4A0B998BF39 /* Pods-GYDataCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYDataCenter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GYDataCenter_Tests/Pods-GYDataCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0CEE9773560C73F7539AD6C2 /* GYDataCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GYDataCenter.podspec; path = ../GYDataCenter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26ECBDBA16EEC241E1A2F328 /* Pods-GYDataCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYDataCenter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GYDataCenter_Tests/Pods-GYDataCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AC71C96206B7E2F003441AA /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		2AC71C97206B7E2F003441AA /* GYDataCenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYDataCenterTests.m; sourceTree = "<group>"; };
+		2AC71C98206B7E2F003441AA /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		2AC71C99206B7E30003441AA /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		2AC71C9A206B7E30003441AA /* GYDataCenterTests.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = GYDataCenterTests.db; sourceTree = "<group>"; };
+		2AC71C9B206B7E30003441AA /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		5ED710671A02433730199638 /* Pods_GYDataCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYDataCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -28,17 +36,9 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6598190B10131C2B3CDC1E5D /* GYDataCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GYDataCenter.podspec; path = ../GYDataCenter.podspec; sourceTree = "<group>"; };
-		731DAAD107177EB1BD7E1465 /* Pods_GYDataCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYDataCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B322652F1D23783200A37382 /* GYDataCenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYDataCenterTests.m; sourceTree = "<group>"; };
-		B32265311D237AEB00A37382 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
-		B32265321D237AEB00A37382 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
-		B32265341D237B1100A37382 /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
-		B32265351D237B1100A37382 /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
-		B32265541D23CE5800A37382 /* GYDataCenterTests.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = GYDataCenterTests.db; sourceTree = "<group>"; };
-		B672AC110FA8AC6A490C8971 /* Pods-GYDataCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYDataCenter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GYDataCenter_Tests/Pods-GYDataCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C37B51DADCC4C4E2B02A18AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D95DEF124DD73D660AA2B47C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		707EB019E3A9517BE31544DB /* Pods-GYDataCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYDataCenter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GYDataCenter_Tests/Pods-GYDataCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BB2F8C855A8FD4CA4799D2B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C9B76EE8201A2ACEFFA8B206 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,13 +49,22 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				38FB31E541ABB7770248C4D4 /* Pods_GYDataCenter_Tests.framework in Frameworks */,
+				67CC4C1D7ECB81FD502E2108 /* Pods_GYDataCenter_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		060F9BDCF7D7140ED2A8FD89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26ECBDBA16EEC241E1A2F328 /* Pods-GYDataCenter_Tests.debug.xcconfig */,
+				707EB019E3A9517BE31544DB /* Pods-GYDataCenter_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +72,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				DDF5EFF40B7434272008C60E /* Pods */,
+				060F9BDCF7D7140ED2A8FD89 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,7 +91,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				731DAAD107177EB1BD7E1465 /* Pods_GYDataCenter_Tests.framework */,
+				5ED710671A02433730199638 /* Pods_GYDataCenter_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,12 +99,12 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B32265541D23CE5800A37382 /* GYDataCenterTests.db */,
-				B32265341D237B1100A37382 /* Department.h */,
-				B32265351D237B1100A37382 /* Department.m */,
-				B32265311D237AEB00A37382 /* Employee.h */,
-				B32265321D237AEB00A37382 /* Employee.m */,
-				B322652F1D23783200A37382 /* GYDataCenterTests.m */,
+				2AC71C98206B7E2F003441AA /* Department.h */,
+				2AC71C9B206B7E30003441AA /* Department.m */,
+				2AC71C96206B7E2F003441AA /* Employee.h */,
+				2AC71C99206B7E30003441AA /* Employee.m */,
+				2AC71C9A206B7E30003441AA /* GYDataCenterTests.db */,
+				2AC71C97206B7E2F003441AA /* GYDataCenterTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -114,20 +123,11 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				6598190B10131C2B3CDC1E5D /* GYDataCenter.podspec */,
-				C37B51DADCC4C4E2B02A18AA /* README.md */,
-				D95DEF124DD73D660AA2B47C /* LICENSE */,
+				0CEE9773560C73F7539AD6C2 /* GYDataCenter.podspec */,
+				C9B76EE8201A2ACEFFA8B206 /* README.md */,
+				BB2F8C855A8FD4CA4799D2B5 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		DDF5EFF40B7434272008C60E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B672AC110FA8AC6A490C8971 /* Pods-GYDataCenter_Tests.debug.xcconfig */,
-				3AFB007D139AA4A0B998BF39 /* Pods-GYDataCenter_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,12 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "GYDataCenter_Tests" */;
 			buildPhases = (
-				A6DEB59B603E718ABEC1C02A /* 📦 Check Pods Manifest.lock */,
+				7D5C151BC9B2336A36224083 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				3F4D069E29F7EAC0C1EF0296 /* 📦 Embed Pods Frameworks */,
-				B90A47D6B4C8909FF971434C /* 📦 Copy Pods Resources */,
+				E67EA49044CB8BCC83633E7A /* [CP] Embed Pods Frameworks */,
+				B1EEA750DE0830C8CE62E176 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,7 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32265551D23CE5800A37382 /* GYDataCenterTests.db in Resources */,
+				2AC71C9E206B7E30003441AA /* GYDataCenterTests.db in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,49 +199,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3F4D069E29F7EAC0C1EF0296 /* 📦 Embed Pods Frameworks */ = {
+		7D5C151BC9B2336A36224083 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GYDataCenter_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GYDataCenter_Tests/Pods-GYDataCenter_Tests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6DEB59B603E718ABEC1C02A /* 📦 Check Pods Manifest.lock */ = {
+		B1EEA750DE0830C8CE62E176 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B90A47D6B4C8909FF971434C /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GYDataCenter_Tests/Pods-GYDataCenter_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67EA49044CB8BCC83633E7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GYDataCenter_Tests/Pods-GYDataCenter_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/GYDataCenter/GYDataCenter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GYDataCenter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GYDataCenter_Tests/Pods-GYDataCenter_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -251,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32265331D237AEB00A37382 /* Employee.m in Sources */,
-				B32265301D23783200A37382 /* GYDataCenterTests.m in Sources */,
-				B32265361D237B1100A37382 /* Department.m in Sources */,
+				2AC71C9D206B7E30003441AA /* Employee.m in Sources */,
+				2AC71C9C206B7E30003441AA /* GYDataCenterTests.m in Sources */,
+				2AC71C9F206B7E30003441AA /* Department.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +354,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B672AC110FA8AC6A490C8971 /* Pods-GYDataCenter_Tests.debug.xcconfig */;
+			baseConfigurationReference = 26ECBDBA16EEC241E1A2F328 /* Pods-GYDataCenter_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -362,14 +370,13 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYDataCenter_Example.app/GYDataCenter_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AFB007D139AA4A0B998BF39 /* Pods-GYDataCenter_Tests.release.xcconfig */;
+			baseConfigurationReference = 707EB019E3A9517BE31544DB /* Pods-GYDataCenter_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -381,7 +388,6 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYDataCenter_Example.app/GYDataCenter_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
